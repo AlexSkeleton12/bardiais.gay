@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            fetch('https://api.ipregistry.co/?key=zbpfgm46yq9nmgdh').then(function (response) {
+                return response.json();
+            }).then(function (payload) {
+                if (payload.location.country.code == "SE") {
+                    window.location.replace("http://bardiais.gay/sv");
+                } else {
+                    window.location.replace("http://bardiais.gay/en");
+                }
+                console.log(payload.location.country.code); 
+            });
+
+            
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>
