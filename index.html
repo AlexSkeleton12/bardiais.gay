@@ -6,9 +6,9 @@
                 return response.json();
             }).then(function (payload) {
                 if (payload.location.country.code == "SE") {
-                    window.location.replace("http://bardiais.gay/sv");
+                    window.location.replace("https://bardiais.gay/sv");
                 } else {
-                    window.location.replace("http://bardiais.gay/en");
+                    window.location.replace("https://bardiais.gay/en");
                 }
                 console.log(payload.location.country.code); 
             });
