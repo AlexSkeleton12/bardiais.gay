@@ -4,5 +4,17 @@ html {
 
 #mainText {
     text-align: center;
-    margin-top: 2em;
+    margin-top: 1em;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    margin-top: auto;
+    margin-bottom: 1em;
+    text-align: center;
 }
